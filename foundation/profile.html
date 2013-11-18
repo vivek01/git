@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title style=color:#3B5998>Tack Track</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.css">
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body class="off-canvas hide-extras">
+<div class="row">
+  <div class="large-12 columns">
+
+    <!-- Navigation -->
+      <div class="fixed">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name" >
+            <h1>
+              <a href="home.html">
+               <img src="img/pin.png" style="max-height:30px;max-width:30px">
+              </a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href=#><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul class="left">
+            
+            <li class="has-dropdown"><a href="home.hmtl">Tack User</a>
+              <ul class="dropdown">
+                <li><label>Tack User</label></li>
+                <li class="divider"></li>
+                <li><a href="tacks.html">tacks</a></li>
+                <li class="divider"></li>
+                <li><a href="boards.html">boards</a></li>
+                <li class="divider"></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li class="divider"></li>
+                <li class="has-dropdown"><a href="categories.hmtl">Categories</a>
+                  <ul class="dropdown">
+                     <li><label>Categories</label></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="divider"></li>
+            <li><a href="tacks.html">Tacks</a></li>
+            <li class="divider"></li>
+            <li><a href="boards.html">Boards</a></li>
+            <!--<li><a href="#">About</a></li> 
+          -->
+              <li class="divider"></li>
+            <li class="has-dropdown"><a href="categories.hmtl">Categories</a>
+                  <ul class="dropdown">
+                     <li><label>Categories</label></li>
+                  </ul>
+                </li>
+                  <li class="divider"></li>
+                <li id="t-about"><a href="about.html">About</a></li>
+          </ul>
+
+          <ul class="right">
+            <li class="search"> 
+              <form>
+                <input type="search">
+              </form>
+            </li>
+
+            <li class="has-button">
+              <a class="small button" href="#">Search</a>
+            </li>
+
+            <li class="divider"></li>
+            <li class="has-button">
+              <a class="button round" href="logout.html">Sign out</a>
+            </li>
+          </ul>
+        </section>
+    </nav>
+    </div>
+    <!-- End Navigation -->
+
+    </div>
+  </div>
+<!-- End of first row -->
+  
+    <div class="row">
+      <div class="large-3 columns"></div>
+      <div class="large-6 large-offset-3 columns">
+        <div class="row">
+          <div class="large-10 columns">
+            <h2 align="center" style="color:#00CC99"> <b><i>Profile Settings</i></b></h2>
+            <form class="custom" method="get" action="home.html">
+       <fieldset>
+        <legend style=color:Red;font:14><i>User Settings</i></legend>
+        <div class="row">
+          <div class="large-12 columns">
+            <label >First Name</label>
+            <input type="text" placeholder="Enter your First Name" name="fname">
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter Your Last Name" name="lname">
+          </div>
+          </div>
+        
+          <div class="row">
+            
+            <div class="large-12 large-centered columns" >
+              <label>Email</label>
+              <input type="email" placeholder="Email Address" name="email">
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="large-12 large-centered columns">
+              <label>Confirm your email</label>
+              <input type="password" name="cemail">
+            </div>
+          <div class="row">
+            <div class="large-11 large-centered columns"></div>
+            <d
+          </div>
+          </div>
+          <input type="submit" value="update!">
+        </div>
+       </fieldset>
+      </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+
+          </div>
+        </div>
+      </div>
+      <div class="large-3 columns"></div>
+    </div>
+
+
+    <!-- Footer -->
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr>
+      <div class="row">
+        <div class="large-6 columns">
+          <p>&copy; Copyright Tack Track</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="anout.html">About</a></li>
+            <li><a href="company.html">Company</a></li>
+            <li><a href="legal.html">Legal Issues</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  document.write('<script src=js/vendor/' +
+  ('__proto__' in {} ? 'zepto' : 'jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('#featured').orbit({ fluid: '2x1' });
+    });
+  </script>
+  <!-- End Footer -->
+
+</body>
+</html>
